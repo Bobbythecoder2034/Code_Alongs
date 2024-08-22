@@ -102,3 +102,5 @@ console.log(`Comparing ${input1} (${typeof(input1)}) amd ${input2} (${typeof(inp
 console.log(`When compared with == is ${input1 == input2}`)
 console.log(`When compared with === is ${input1 === input2}`)
 console.log(`When compared with Object.is is ${Object.is(input1,input2)}`)
+
+console.log("Honey, I shrunk the kids!")
