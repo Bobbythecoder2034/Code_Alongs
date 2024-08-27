@@ -104,3 +104,18 @@ console.log(`When compared with === is ${input1 === input2}`)
 console.log(`When compared with Object.is is ${Object.is(input1,input2)}`)
 
 console.log("Honey, I shrunk the kids!")
+
+let x = 14
+let y = 25
+
+function addFunction(x,y,z){
+    console.log(String(x+y+z))
+}
+
+addFunction(x,y,45)
+
+myNameIs = "Kaden"
+function childTruth(hisName){
+    console.log(String(hisName) + " is the favorite child.")
+}
+childTruth(myNameIs)

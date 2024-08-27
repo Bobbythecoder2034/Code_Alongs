@@ -96,3 +96,18 @@ print("The hypotenuse of the triangle is " + str(side_C) + "cm")
 
 """
 
+#Functions
+
+x = 14
+y = 25
+
+def add_function(num1,num2):
+    print(str(num1+num2))
+
+add_function(x,y)
+
+my_name_is = "Kaden"
+def name_function(myname):
+    print(str(myname) + " is the favorite child.")
+
+name_function(my_name_is)
