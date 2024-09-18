@@ -1,0 +1,30 @@
+span,h1{
+    border: 1px solid black;
+    background-color:  lime;
+}
+.special{
+    background-color:red;
+}
+/* .special must be placed on the tag you want to change. Since .special doesn't affect font-weight, the text will stay bolder.*/
+p{
+    background-color:purple;
+    font-weight: bolder;
+}
+p{
+    color: red;
+}
+p{
+    color: blue;
+}
+footer{
+    margin-top: 10px;
+}
+.outer{
+    border: 5px solid black;
+}
+.box{
+    padding: 30px;
+    width: calc(90% -60px);
+    background-color: rebeccapurple;
+    color: white;
+}
