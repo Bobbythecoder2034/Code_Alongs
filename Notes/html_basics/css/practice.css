@@ -37,8 +37,15 @@ a[href = "https://github.com"]:visited{
     color: green;
 }
 
-a::first-letter{
+p.link::first-letter{
     font-size: 200%;
     font-family: fantasy;
+}
+a::after{
+    content: ".com";
+}
+
+a:hover{
+    text-decoration: none;
 }
 
