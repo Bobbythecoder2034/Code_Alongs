@@ -1,0 +1,44 @@
+a[href = "https://Google.com"]{
+    color: red;
+
+}
+a[href = "https://Wikipedia.com"]{
+    color: grey;
+}
+
+a[href = "https://W3schools.com"]{
+    color: limegreen;
+}
+
+a[href = "Mdn.com"]{
+    color: lightblue;
+}
+
+a[href = "github.com"]{
+    color: green;
+}
+a[href = "https://Google.com"]:visited{
+    color: red;
+
+}
+a[href = "https://Wikipedia.com"]:visited{
+    color: grey;
+}
+
+a[href = "https://W3schools.com"]:visited{
+    color: limegreen;
+}
+
+a[href = "Mdn.com"]:visited{
+    color: lightblue;
+}
+
+a[href = "github.com"]:visited{
+    color: green;
+}
+
+a::first-letter{
+    font-size: 200%;
+    font-family: fantasy;
+}
+

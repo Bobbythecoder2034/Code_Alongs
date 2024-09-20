@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header{
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: limegreen;
+    background-color: black;
+}
+
+.teenyTiny{
+    font-size: xx-large;
+    font-weight: 5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: wavy;
+    text-shadow: 0cap;
+    text-decoration-color: blueviolet;
+    color: aquamarine;
+    background-color: brown;
+}
+#bob{
+    color: aqua;
+    text-decoration: underline dotted black;
+}
+
+#testimonials{
+    color: orange;
+}
+.tester{
+    color: purple;
+}
+/* a{color:blue}
+a[href]{color: purple;} */
+a[href="west-MEC.org"]{color: orange;}
+
+/* a:hover{
+    color:red
+}
+a:visited{
+    color: royalblue;
+} */
+h1:hover{
+    color:darkslategrey;
+}
+.show:hover{
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+}
+p::first-letter{
+    font-size: larger;
+    font-family: fantasy;
+}
+article p{
+    color: royalblue;
+}
+article > p{
+    color: forestgreen;
+}
+
