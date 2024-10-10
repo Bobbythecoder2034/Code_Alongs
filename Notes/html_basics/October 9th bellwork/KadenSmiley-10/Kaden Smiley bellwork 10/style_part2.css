@@ -1,9 +1,14 @@
 .container{
-
+    padding-left: 160px;
 }
 .sidebar{
-
+    background-color: lightgreen;
+    height: 200px;
+    width: 150px;
+    position: fixed;
+    left: 0;
+    text-align: center;
 }
 .content{
-    
+    font-size: large;
 }

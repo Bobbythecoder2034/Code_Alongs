@@ -1,12 +1,12 @@
 .container{
-
+    font-size: large;
 }
 .target{
     position: absolute;
     background-color: lightgreen;
     height: 200px;
     width: 200px;
-    left: 88%;
+    left: 87%;
     top: 0;
     text-align: center;
 }
