@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header{
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+h1, h2{
+    margin-bottom: 10px;
+}
+main{
+    max-width: 1200px;
+    margin: 20px auto; 
+    /* The first value is top and bottom. The second value affects the left and right margins */
+    padding: 10px;
+}
+section{
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #444;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
