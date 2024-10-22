@@ -22,51 +22,27 @@ switch (weather){
 
 let day = 3;
 
-if (day === 1) {
-
-    console.log('Monday');
-
-} else if (day === 2) {
-
-    console.log('Tuesday');
-
-} else if (day === 3) {
-
-    console.log('Wednesday');
-
-} else if (day === 4) {
-
-    console.log('Thursday');
-
-} else if (day === 5) {
-
-    console.log('Friday');
-
-} else if (day === 6) {
-
-    console.log('Saturday');
-
-} else {
-
-    console.log('Sunday');
-
-}
-
 switch (day){
-    case():
-        console.log();
+    case(day === 1):
+        console.log("Monday");
         break
-    case():
-        console.log();
+    case(day === 2):
+        console.log("Tuesday");
         break
-    case():
-        console.log();
+    case(day === 3):
+        console.log("Wednesday");
         break
-    case():
-        console.log();
+    case(day === 4):
+        console.log("Thursday")
+        break
+    case(day === 5):
+        console.log("Friday")
+        break
+    case(day === 6):
+        console.log("Saturday")
         break
     default:
-        console.log();
+        console.log("Sunday");
 }
 
 
@@ -75,333 +51,164 @@ switch (day){
 
 let trafficLight = 'green';
 
-if (trafficLight === 'red') {
-
-    console.log('Stop');
-
-} else if (trafficLight === 'yellow') {
-
-    console.log('Slow down');
-
-} else if (trafficLight === 'green') {
-
-    console.log('Go');
-
-} else {
-
-    console.log('Proceed with caution');
-
-}
-
 switch (trafficLight){
-    case():
-        console.log();
+    case("red"):
+        console.log("Stop");
         break
-    case():
-        console.log();
+    case("yellow"):
+        console.log("Slow Down");
         break
-    case():
-        console.log();
-        break
-    case():
-        console.log();
+    case("green"):
+        console.log("Go");
         break
     default:
-        console.log();
+        console.log("Proceed with caution");
 }
 
 
 
 let score = 75;
 
-if (score >= 90) {
-
-    console.log('A');
-
-} else if (score >= 80) {
-
-    console.log('B');
-
-} else if (score >= 70) {
-
-    console.log('C');
-
-} else if (score >= 60) {
-
-    console.log('D');
-
-} else {
-
-    console.log('F');
-
-}
 
 switch (score){
-    case():
-        console.log();
+    case(score >= 90):
+        console.log("A");
         break
-    case():
-        console.log();
+    case(score >= 80):
+        console.log("B");
         break
-    case():
-        console.log();
+    case(score >= 70):
+        console.log("C");
         break
-    case():
-        console.log();
+    case(score >= 60):
+        console.log("D");
         break
     default:
-        console.log();
+        console.log("F");
 }
 
 
 
 let size = 'L';
 
-if (size === 'S') {
-
-    console.log('Small');
-
-} else if (size === 'M') {
-
-    console.log('Medium');
-
-} else if (size === 'L') {
-
-    console.log('Large');
-
-} else if (size === 'XL') {
-
-    console.log('Extra Large');
-
-} else {
-
-    console.log('Unknown Size');
-
-}
 
 switch (size){
-    case():
-        console.log();
+    case('S'):
+        console.log('Small');
         break
-    case():
-        console.log();
+    case('M'):
+        console.log('Medium');
         break
-    case():
-        console.log();
+    case('L'):
+        console.log('Large');
         break
-    case():
-        console.log();
+    case('XL'):
+        console.log('Extra Large');
         break
     default:
-        console.log();
+        console.log('Unknown Size');
 }
 
 
 
 let browser = 'Chrome';
 
-if (browser === 'Chrome') {
-
-    console.log('Fast and popular');
-
-} else if (browser === 'Firefox') {
-
-    console.log('Privacy-focused');
-
-} else if (browser === 'Safari') {
-
-    console.log('Best for Apple devices');
-
-} else if (browser === 'Edge') {
-
-    console.log('Windows default browser');
-
-} else {
-
-    console.log('Other browser');
-
-}
 
 switch (browser){
-    case():
-        console.log();
+    case('Chrome'):
+        console.log('Fast and popular');
         break
-    case():
-        console.log();
+    case('Firefox'):
+        console.log('Privacy-focused');
         break
-    case():
-        console.log();
+    case('Safari'):
+        console.log('Best for Apple devices');
         break
-    case():
-        console.log();
+    case('Edge'):
+        console.log('Windows default browser');
         break
     default:
-        console.log();
+        console.log('Other browser');
 }
 
 
 
 let temperature = 25;
 
-if (temperature < 0) {
-
-    console.log('Freezing');
-
-} else if (temperature < 10) {
-
-    console.log('Very Cold');
-
-} else if (temperature < 20) {
-
-    console.log('Cold');
-
-} else if (temperature < 30) {
-
-    console.log('Warm');
-
-} else {
-
-    console.log('Hot');
-
-}
 
 switch (temperature){
-    case():
-        console.log();
+    case(temperature < 0):
+        console.log("Freezimg");
         break
-    case():
-        console.log();
+    case(temperature < 10):
+        console.log("Very Cold");
         break
-    case():
-        console.log();
+    case(temperature < 20):
+        console.log("Cold");
         break
-    case():
-        console.log();
+    case(temperature < 30):
+        console.log("Warm");
         break
     default:
-        console.log();
+        console.log("Hot");
 }
 
 
 
 let fruit = 'apple';
 
-if (fruit === 'apple') {
-
-    console.log('Apple a day keeps the doctor away');
-
-} else if (fruit === 'banana') {
-
-    console.log('Rich in potassium');
-
-} else if (fruit === 'orange') {
-
-    console.log('Good source of vitamin C');
-
-} else if (fruit === 'grape') {
-
-    console.log('Sweet and juicy');
-
-} else {
-
-    console.log('Unknown fruit');
-
-}
-
 switch (fruit){
-    case():
-        console.log();
+    case('apple'):
+        console.log('Apple a day keeps the doctor away');
         break
-    case():
-        console.log();
+    case('banana'):
+        console.log('Rich in potassium');
         break
-    case():
-        console.log();
+    case('orange'):
+        console.log('Good source of vitamin C');
         break
-    case():
-        console.log();
+    case('grape'):
+        console.log('Sweet and juicy');
         break
     default:
-        console.log();
+        console.log('Unknown fruit');
 }
 
 
 let subscription = 'premium';
 
-if (subscription === 'basic') {
-
-    console.log('Access to limited content');
-
-} else if (subscription === 'standard') {
-
-    console.log('Access to most content');
-
-} else if (subscription === 'premium') {
-
-    console.log('Access to all content');
-
-} else {
-
-    console.log('Invalid subscription type');
-
-}
-
 switch (subscription){
-    case():
-        console.log();
+    case('basic'):
+        console.log('Access to limited content');
         break
-    case():
-        console.log();
+    case('standard'):
+        console.log('Access to most content');
         break
-    case():
-        console.log();
-        break
-    case():
-        console.log();
+    case('premium'):
+        console.log('Access to all content');
         break
     default:
-        console.log();
+        console.log('Invalid subscription type');
 }
 
 
 
 let paymentMethod = 'credit card';
 
-if (paymentMethod === 'credit card') {
-
-    console.log('Processing with credit card');
-
-} else if (paymentMethod === 'debit card') {
-
-    console.log('Processing with debit card');
-
-} else if (paymentMethod === 'paypal') {
-
-    console.log('Processing with PayPal');
-
-} else if (paymentMethod === 'cash') {
-
-    console.log('Pay with cash');
-
-} else {
-
-    console.log('Invalid payment method');
-
-}
 
 switch (paymentMethod){
-    case():
-        console.log();
+    case('credit card'):
+        console.log('Processing with credit card');
         break
-    case():
-        console.log();
+    case('debit card'):
+        console.log('Processing with debit card');
         break
-    case():
-        console.log();
+    case('paypal'):
+        console.log('Processing with PayPal');
         break
-    case():
-        console.log();
+    case('cash'):
+        console.log('Pay with cash');
         break
     default:
-        console.log();
+        console.log('Invalid payment method');
 }
