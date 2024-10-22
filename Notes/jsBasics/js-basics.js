@@ -119,3 +119,89 @@ function childTruth(hisName){
     console.log(String(hisName) + " is the favorite child.")
 }
 childTruth(myNameIs)
+
+let tests = "Bored"
+let tests5 = "bored"
+
+// console.log(Object.is(tests,tests5))
+
+// console.log(5>4)
+// console.log("apple" > "appear")
+// console.log("west" < "Went")
+// console.log(2 > "12")
+// console.log(undefined == null)
+// console.log(undefined === null)
+// console.log(null == 0)
+
+let answer = false
+if(answer){
+    console.log("This is true")
+}
+if(!answer){
+    console.log("This is false")
+}
+
+let years = 231
+if(years == 231) console.log("uh oh");
+
+if(true)console.log('works');
+
+if(0)console.log("doesn't work");
+
+let check = "false"
+if(check)console.log("this works too")
+
+let age7 = 21
+let canDrink = (age7 >= 21) ? 643 : 24
+console.log(canDrink)
+
+
+let a = 2
+let b = 5
+let results12 = (a+b < 4) ? "Below" : "Over"
+console.log(results12)
+
+let letterGrade = 40
+if(letterGradegrade > 90){
+    return "A"
+}else if(letterGrade > 80){
+    return "B"
+}else if(letterGrade > 70){
+    return "C"
+}else if(letterGrade > 60){
+    return "D"
+}else{
+    return "F"
+}
+let myVal = 2
+switch (true){
+    case(myVal >=10):
+        multiplier = 2;
+        console.log("Jeff");
+        break;
+    case (myVal >= 0):
+        multiplier = 1;
+        console.log("Men");
+        break;
+    default:
+        multiplier = -1;
+        console.log("Mommy");
+}
+let login = "Director"
+let message2;
+
+switch (login){
+    case ("Employee"):
+        message2 = "Hello";
+        break
+    case ("Director"):
+        message2 = "Greetings"
+        break
+    case (""):
+        message2 = "No login"
+        break
+    default:
+        message = ""
+}
+console.log(message2)
+
