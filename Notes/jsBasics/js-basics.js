@@ -269,3 +269,34 @@ while(i){
     console.log(i)
     i--
 }
+
+let i = 3
+do{
+    console.log(i)
+    i++
+}while (i < 3);
+
+let classes = 12
+for(let i = 0; i < classes; i++){
+    if(i==7){
+        console.log("The next frontier")
+        continue
+
+    }
+    console.log(i)
+    console.log("This should always print")
+}
+
+
+// This works in browser
+// outer: for (let i = 0; i < 3; i++){
+//     for (let j = 0; j < 5; j++){
+//         let input = prompt("What is your name?")
+
+//         if (input.length > 0){ 
+//             break outer
+//         }
+//     }
+// }
+// alert('Done!')
+
