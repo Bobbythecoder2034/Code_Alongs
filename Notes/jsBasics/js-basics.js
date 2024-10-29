@@ -205,87 +205,88 @@
 // }
 // console.log(message2)
 
-let pen = true
-let paper = false
-let keyboard = true
-let mouse = true
+//IF STATEMENTS
+// let pen = true
+// let paper = false
+// let keyboard = true
+// let mouse = true
 
-if(pen && paper||keyboard && mouse){
-    console.log("You can take notes")
-}
-let stayedUpLate = false
-let playedTooMuch = false
-let studied = true
-let skippedBreakfast = false
+// if(pen && paper||keyboard && mouse){
+//     console.log("You can take notes")
+// }
+// let stayedUpLate = false
+// let playedTooMuch = false
+// let studied = true
+// let skippedBreakfast = false
 
-if(!stayedUpLate && !playedTooMuch && studied && !skippedBreakfast){
-    console.log("YAAYYYY!!!!")
-}
+// if(!stayedUpLate && !playedTooMuch && studied && !skippedBreakfast){
+//     console.log("YAAYYYY!!!!")
+// }
 
-let location = null
-let geoLocation = "Tuscon"
-console.log(geoLocation ?? "Not a valid location")
-let newLocation = location ?? "Arizona"
-console.log(newLocation)
+// let location = null
+// let geoLocation = "Tuscon"
+// console.log(geoLocation ?? "Not a valid location")
+// let newLocation = location ?? "Arizona"
+// console.log(newLocation)
 
 
-let a = null
-let b = undefined
-let c = ""
-let d = "This is the last thing"
-console.log(a ?? b ?? c ?? d)
+// let a = null
+// let b = undefined
+// let c = ""
+// let d = "This is the last thing"
+// console.log(a ?? b ?? c ?? d)
 
-let empty = []
-for(var i = 1;  i < 6; i++){
+// let empty = []
+// for(var i = 1;  i < 6; i++){
     
-    let newNumber = Math.floor((Math.random()*99+1))
-    empty.push(newNumber)
-}
-console.log(empty)
+//     let newNumber = Math.floor((Math.random()*99+1))
+//     empty.push(newNumber)
+// }
+// console.log(empty)
 
-for(let i = 10; i > -30; i--){
-    console.log(i)
+// for(let i = 10; i > -30; i--){
+//     console.log(i)
 
-}
+// }
 
-for(let i = 1; i < 20; i++){
-    if((i==5)||(i==7)||(i==9)||(i==11)||(i==13)){
-        console.log(i)
-    }
-}
+// for(let i = 1; i < 20; i++){
+//     if((i==5)||(i==7)||(i==9)||(i==11)||(i==13)){
+//         console.log(i)
+//     }
+// }
 
-for(let i = 5; i < 12; i++){
-    console.log(i)
-}
-for(let i = 0; i < 9; i++){
-    console.log("this is nice")
-}
-for(let i = 11; i > 0; i -= 2){
-    console.log(i)
-}
+// for(let i = 5; i < 12; i++){
+//     console.log(i)
+// }
+// for(let i = 0; i < 9; i++){
+//     console.log("this is nice")
+// }
+// for(let i = 11; i > 0; i -= 2){
+//     console.log(i)
+// }
 
-let i = 3
-while(i){
-    console.log(i)
-    i--
-}
+// let i = 3
+// while(i){
+//     console.log(i)
+//     i--
+// }
 
-let i = 3
-do{
-    console.log(i)
-    i++
-}while (i < 3);
+// let i = 3
+// do{
+//     console.log(i)
+//     i++
+// }while (i < 3);
 
-let classes = 12
-for(let i = 0; i < classes; i++){
-    if(i==7){
-        console.log("The next frontier")
-        continue
+// let classes = 12
+// for(let i = 0; i < classes; i++){
+//     if(i==7){
+//         console.log("The next frontier")
+//         continue
 
-    }
-    console.log(i)
-    console.log("This should always print")
-}
+//     }
+//     console.log(i)
+//     console.log("This should always print")
+// }
 
 
 // This works in browser
@@ -300,3 +301,73 @@ for(let i = 0; i < classes; i++){
 // }
 // alert('Done!')
 
+//ARRAYS
+// let array = ["red", "orange", "yellow", "green"]
+// console.log(array[3])
+// let ages = [1,12,23,43,607,13413]
+// for(var i = 0; i < ages.length; i++){
+//     console.log(ages[i])
+// }
+
+// array.push("magenta")
+// console.log(array)
+// array.unshift("gold")
+// array.unshift("silver", "crimson")
+// console.log(array)
+
+// let box1 = [1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31]
+// let box2 = [2,3,6,7,10,11,14,15,18,19,22,23,26,27,30,31]
+// let box3 = [4,5,6,7,12,13,14,15,20,21,22,23,28,29,30,31]
+// let box4 = [8,9,10,11,12,13,14,15,24,25,26,27,28,29,30,31]
+// let box5 = [16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31]
+
+// for(let colors of array){
+//     colors += " - Solid"
+//     console.log(colors)
+// }
+// let numeros = [1,2,3,4,5,6]
+// for(let i = 0; i < array.length; i++){
+//     numeros[i] *= 3
+//     console.log(numeros)
+// }
+
+// let music = ["jazz","blues",]
+// console.log(music)
+// music.push("R&B")
+// console.log(music)
+// let width = music.length
+// if(width % 2 != 0){
+//     music[(width+1)/2] = "none"
+// }
+// console.log(music)
+// for(i=(music.length-1); i>=music.length/2 -1;i--){
+//     music[i+1] = music[i]
+// }
+// music[2] = "classic"
+// console.log(music)
+
+// music.unshift("rap", "acapella")
+// console.log(music)
+
+
+//The Spread Operator
+// let b = ["Phineas", "Ferb", "Perry", "Doofenshmirtz", "Isabella", "Candace"]
+// let c = ["Jake","Finn","LSP","Marceline","Princess Bubblegum","Lemonheads"]
+
+// let e = ["Beemo", ...c, "The Lich","Flame Princess"]
+// console.log(e)
+// let f = [...b,...c]
+// console.log(f)
+
+// let string = "this is sparta"
+// string = string.split("s")
+// console.log(string)
+// //[ 'thi', ' i', ' ', 'parta' ]
+
+// let words = "Who would stop talking first Rohan, Monte, or Justin"
+// let newWords = words.split("i")
+// console.log(newWords)
+// console.log(newWords[2])
+
+
+//FUNCTIONS
