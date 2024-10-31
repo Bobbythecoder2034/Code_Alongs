@@ -364,10 +364,15 @@
 // console.log(string)
 // //[ 'thi', ' i', ' ', 'parta' ]
 
-// let words = "Who would stop talking first Rohan, Monte, or Justin"
-// let newWords = words.split("i")
+let words = "Who would stop talking first Rohan, Monte, or Justin. The real problem is always those weird meat like people with feet and more opinions than needed."
+// console.log(words)
+// let newWords = words.split(" ")
 // console.log(newWords)
-// console.log(newWords[2])
+// let g = newWords.join("**")
+// console.log(g)
+let newWords2 = words.split(" ")
+let bestResults = newWords2.join("-")
+console.log(bestResults)
 
 
 //FUNCTIONS
