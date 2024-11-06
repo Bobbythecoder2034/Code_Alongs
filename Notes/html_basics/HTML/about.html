@@ -6,6 +6,26 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>This is a Test Website</h1>
+    <h1 id="Title">This is a Test Website</h1>
+    <img src="./../images/squares.jpg" alt="squares" onclick="swutch()" id="squares">
+    <button onclick="changeName('Bernard')" ondblclick="changeName('Bob')">Click Here</button>
+    <script>
+        let storage = document.getElementById('Title').innerHTML
+        console.log(storage)
+        let newStorage = document.getElementById("Title").textContent="New Text"
+        console.log(newStorage)
+        
+        function changeName(name){
+            document.getElementById("Title").textContent=name
+            document.getElementById('Title').style.color="purple"
+            document.getElementById('Title').style.textDecoration = "underline"
+            document.getElementById('Title').style.fontSize="200px"
+            document.getElementById('Title').style.fontFamily = "Arial"
+        }
+        function swutch(){
+            let image = document.getElementById('squares')
+            image.src = "./../images/Moo_deng_หมูเด้ง_(2024-09-11)_-_img_02.jpg"
+        }
+    </script>
 </body>
 </html>
