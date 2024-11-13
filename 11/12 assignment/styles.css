@@ -1,11 +1,4 @@
-.darkmode{
-    color: white;
-    background-color: black;
-}
-.lightmode{
-    color: black;
-    background-color: white;
-}
+
 
 .Hola{
     font-size: 50px;
@@ -36,11 +29,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+
+.darkmode{
+    color: #ffffff;
+    background-color: black;
+}
+.lightmode{
+    color: rgb(0, 0, 0);
+    background-color: white;
 }
 header{
     background-color: #444;
