@@ -1,29 +1,5 @@
 
 
-.Hola{
-    font-size: 50px;
-    color: red;
-    font-weight: bolder;
-}
-.Adios{
-    visibility: hidden;
-}
-.Grande{
-    font-size: 200px;
-}
-.Pequeño{
-    size: 5px;
-}
-.Amarillo_y_Azul{
-    color: yellow;
-    background-color: blue;
-}
-.base{
-    font-size: 40px;
-    color: black;
-    visibility: visible;
-    background-color: white;
-}
 *{
     margin: 0;
     padding: 0;
@@ -112,4 +88,28 @@ footer{
         background-color: yellow;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+}
+.Hola{
+    font-size: 50px;
+    color: red;
+    font-weight: bolder;
+}
+.Adios{
+    visibility: hidden;
+}
+.Grande{
+    font-size: 200px;
+}
+.Pequeño{
+    size: 5px;
+}
+.Amarillo_y_Azul{
+    color: yellow;
+    background-color: blue;
+}
+.base{
+    font-size: 40px;
+    color: black;
+    visibility: visible;
+    background-color: white;
 }
