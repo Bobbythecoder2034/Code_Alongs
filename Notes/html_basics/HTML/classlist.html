@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../css/classlist.css">
+</head>
+<body>
+    <div id="lists" class="first second third">
+        <h1>This is a test zone</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus illo debitis alias iusto perferendis, quia quis. Sed est tenetur ipsa?</p>
+        <button onclick="remove()">Remove</button>
+        <button onclick="add()">Add</button>
+
+    </div>
+    <script>
+        const list = document.getElementById('lists').classList
+        console.log(list)
+        function remove(){
+            list.toggle("first")
+        }
+        function add(){
+            list.add("fourth")
+        }
+        console.log(list.contains("Bruce"))
+    </script>
+</body>
+</html>
