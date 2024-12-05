@@ -127,59 +127,59 @@ if first_name == "Kaden":
 if not tech_is_alive:
     print("WHY!!!!!")
 print("Kaden Smiley")
-print(2**6) #2 to the sixth
+print(2**6) 2 to the sixth
 print(2**(1/2)) #square root
-print(math.sqrt(age)) # square root
-print(math.pow(2,6)) # 2 to the power of 6
-print(math.radians(30)) # converts from decimal to radians
+print(math.sqrt(age)) square root
+print(math.pow(2,6))  2 to the power of 6
+print(math.radians(30))  converts from decimal to radians
 print(math.sin(120))
 print(math.tan(90))
 print(math.cos(60))
-print(math.floor(13.4)) #Rounds down
-print(math.gcd(21,14)) # finds the greatest common divider
+print(math.floor(13.4)) Rounds down
+# print(math.gcd(21,14))  finds the greatest common divider
 
 
-grade = 84
-if grade >= 90:
-    print("A")
-elif grade >= 80:
-    print("B")
-elif grade >= 70:
-    print("C")
-elif grade >= 60:
-    print("D")
-else:
-    print("F")
-"""
-#Lists in python
-"""Lists are used to store multiple items in a single variable. It is very similar to arrays."""
+# grade = 84
+# if grade >= 90:
+#     print("A")
+# elif grade >= 80:
+#     print("B")
+# elif grade >= 70:
+#     print("C")
+# elif grade >= 60:
+#     print("D")
+# else:
+#     print("F")
+# """
+# #Lists in python
+# """Lists are used to store multiple items in a single variable. It is very similar to arrays."""
 
-food = ["tacos","Krave","chocolate","Ice Cream","Apple Juice","Steak"]
-print(food)
-print(len(food)) # length of the list
-print(food[2]) # prints the third item since lists start their index on zero
-print(sorted(food)) # This does not change the list itself, it just sorts it.
-# It sorts it by ASCII values of the first character.
-print(food)
-food.sort() # This sorts and alters the original list
-print(food)
-food.reverse() # Reverses the order of the list
-print(food)
-food.append("Turkey") # Adds to the end of the list.
-# OR
-food[6] = "Turkey" #Replaces the item at that index
-print(food)
-print(food.index("Krave"))# returns the index of the item in the list
-del food[4] # deletes the 4th index from the list
-print(food)
+# food = ["tacos","Krave","chocolate","Ice Cream","Apple Juice","Steak"]
+# print(food)
+# print(len(food))  length of the list
+# print(food[2])  prints the third item since lists start their index on zero
+# print(sorted(food))  This does not change the list itself, it just sorts it.
+# # It sorts it by ASCII values of the first character.
+# print(food)
+# food.sort() This sorts and alters the original list
+# print(food)
+# food.reverse()  Reverses the order of the list
+# print(food)
+# food.append("Turkey") Adds to the end of the list.
+# # OR
+# food[6] = "Turkey" Replaces the item at that index
+# print(food)
+# print(food.index("Krave"))# returns the index of the item in the list
+# del food[4]  deletes the 4th index from the list
+# print(food)
 
 
-#Dictionaries - key value pairs like a dictionary and definition
-favGames = {"Michael":"Minecraft", "Marissa": "Lockdown Protocol", "Micah": "Lethal Company"}  # The names are the indexs (or keys) and the value is the information associated with that key. Each Username has values with it, like stats or information. Each key can only have one object, but each object can have much more information.
-print(favGames)
-print(favGames.keys()) # all the keys in the dictionary
-print(favGames.values()) # all the values in the dictionary
-print(len(favGames)) # prints the length of the dictionary
+# #Dictionaries - key value pairs like a dictionary and definition
+# favGames = {"Michael":"Minecraft", "Marissa": "Lockdown Protocol", "Micah": "Lethal Company"}  # The names are the indexs (or keys) and the value is the information associated with that key. Each Username has values with it, like stats or information. Each key can only have one object, but each object can have much more information.
+# print(favGames)
+# print(favGames.keys())  all the keys in the dictionary
+# print(favGames.values())  all the values in the dictionary
+# print(len(favGames))  prints the length of the dictionary
 
 #w3schools.com/python/module_math.asp
 
@@ -190,22 +190,48 @@ print(len(favGames)) # prints the length of the dictionary
 # login_password = input("What is your password ")
 # print(users["Tommy"])
 
-# if login_password == users[login_username]: # This needs loops to work
+# if login_password == users[login_username]:  This needs loops to work
 #     print("Success")
 # else:
 #     print("Failure")
 
 # LOOPS: For Loops used for sequential loops like a list, dictionary set, or even a string
-for thing in food:
-    print(thing)
-# Thing is a temporary nickname for every item in the food list, dictionary, or whatever. First loop, it will find the first item in food and make thing equal to that item and then print thing, showing that item as its value.
-for x in favGames:
-    print(x)
-for thing in food:
-    print("I am the king")
-for x in "Hello":
-    print(x)
-y=2
-for x in "four":
-    y**2
-    print(y)
+# for thing in food:
+#     print(thing)
+#  Thing is a temporary nickname for every item in the food list, dictionary, or whatever. First loop, it will find the first item in food and make thing equal to that item and then print thing, showing that item as its value.
+# for x in favGames:
+#     print(x)
+# for thing in food:
+#     print("I am the king")
+# for x in "Hello":
+#     print(x)
+# y=2
+# for x in "four":
+#     y**2
+#     print(y)
+# While Loops
+
+# index = 2
+# while index <= 10:
+#     print(index)
+#     index += 2
+
+#Functions
+
+'''A function is a block of code which only runs when it is called. you can pass data known as parameters into a function. A function can return data as a result but it is not mandatory'''
+contacts = []
+# def stands for define
+def pretty_print(name, direction):
+    print("-----**" + name + "**-----")
+    contacts.append(name)
+    if(direction[0].upper() == 'N'):
+        return "Have fun with the snow"
+    elif(direction[0].upper() == "S"):
+        print("The Hot South needs fans")
+    elif(direction[0].upper() == 'E'):
+        print("Has the best pizza")
+    else: print("Either from the west or somewhere else. Either way you suck")
+
+pretty_print("Kaden", "wast")
+
+print(contacts)
